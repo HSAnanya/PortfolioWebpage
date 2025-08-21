@@ -1,0 +1,216 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(back.jpg);
+  background-size: cover;
+
+}
+
+header {
+  padding: 20px;
+  text-align:left;
+  color:black
+}
+header:hover {
+  color:wheat;
+  background-color: rgba(237, 230, 230, 0.116);
+}
+
+  @keyframes bounce {
+      0%{
+        transform: translateX(50%);
+      }
+      25% {
+        transform: translateX(150%);
+      }
+       50% {
+        transform: translateX(300%);
+      }
+       75% {
+        transform: translateX(450%);
+      }
+       100% {
+        transform: translateX(600%);
+      }
+    }
+
+    .profile-pic {
+      width: 200px;
+      border-radius: 50%;
+      animation: bounce 20s infinite;
+      animation-timing-function: linear;
+    }
+.head1{
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+}
+h1 {
+  color: #f7f7f5eb;
+ font-family:'Times New Roman', Times, serif;
+}
+
+h2 {
+  border-bottom: 1px solid #ccc;
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin: 10px ;
+  padding: 10px;
+}
+
+button {
+  background: #333;
+  color: #16de63;
+  border: none;
+  padding: 10px 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+ 
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.main-content {
+  flex: 3;
+  margin-right: 2rem;
+}
+
+.education-section {
+  flex: 1;
+  padding: 1rem;
+  max-width: 300px;
+    min-height: 350px ;
+     animation: bounce1 5s infinite;
+      animation-timing-function: linear;
+}
+.education-section:hover{
+  color: wheat;
+    border-left: 2px solid  #00964e;
+  background-color: #eeecec09;
+}
+.education-section h2 {
+  margin-top: 0;
+}
+
+.education-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.education-section li {
+  margin-bottom: 1rem;
+}
+.about{
+ min-height: 350px ;
+
+    animation: bounce1 5s infinite;
+      animation-timing-function: linear;
+}
+.about:hover{
+  color:wheat;
+     border-left: 2px solid #00964e;
+  background-color: #eeecec09;
+
+}
+
+ @keyframes bounce1 {
+      0%{
+        transform: translateY(0%);
+      }
+      25% {
+        transform: translateY(5%);
+      }
+       50% {
+        transform: translateY(8%);
+      }
+       75% {
+        transform: translateY(10%);
+      }
+       100% {
+        transform: translateY(0%);
+      }
+    }
+
+.skill{
+ display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  animation: bounce1 5s infinite;
+      animation-timing-function: linear;
+}
+.skill:hover{
+  color:wheat;
+   border-left: 2px solid  #00964e;
+    background-color: #eeecec09;
+
+}
+.java{
+    padding: 100px 80px;
+    box-sizing: border-box;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius:20%;
+}
+.java:hover{
+  background-color:rgba(0, 0, 0, 0.341);
+}
+.css{
+  
+    padding: 100px 80px;
+    box-sizing: border-box;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius:20%;
+}
+.css:hover{
+  background-color:rgba(0, 0, 0, 0.341);
+}
+.html{
+    padding: 100px 80px;
+    box-sizing: border-box;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius:20%;
+}
+.html:hover{
+  background-color:rgba(0, 0, 0, 0.341);
+}
+.javascript{
+    padding: 100px 80px;
+    box-sizing: border-box;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius:20%;
+}
+.javascript:hover{
+  background-color:rgba(0, 0, 0, 0.341);
+}
+.python{
+    padding: 100px 80px;
+    box-sizing: border-box;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  border-radius:20%;
+}
+.python:hover{
+  background-color:rgba(0, 0, 0, 0.341);
+}
+
